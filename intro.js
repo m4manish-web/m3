@@ -53,15 +53,83 @@
 // else{
 //     console.log("nothing is available")
 // }
-var milk_available=false
-var butter_available=true
-var cheese_available=true
-if(milk_available){
-    console.log("buy custard powder")
-}
-if(butter_available){
-    console.log("buy butter")
-}
-if(cheese_available){
-    console.log("buy cheese")
-}
+// var milk_available=false
+// var butter_available=true
+// var cheese_available=true
+// if(milk_available){
+//     console.log("buy custard powder")
+// }
+// if(butter_available){
+//     console.log("buy butter")
+// }
+// if(cheese_available){
+//     console.log("buy cheese")
+// }
+// var gender="male"
+// var age=22
+// if(gender=="male")
+// {
+//     if(age>21){
+//         console.log("can marry")
+//     }
+//     else{
+//         console.log("can not marry")
+//     }
+// }
+// if(gender=="female"){
+//     if(age>18){
+//         console.log("can marry")
+//     }
+//     else{
+//         console.log("can not marry")
+//     }
+// }
+// var char="b"
+// if(char=="a"){
+//     console.log("vowel")
+// }
+// else if(char=="e"){
+//     console.log("vowel")
+// }
+// else if(char=="i"){
+//     console.log("vowel")
+// }
+// else if(char=="o"){
+//     console.log("vowel")
+// }
+// else if(char=="u"){
+//     console.log("vowel")
+// }
+// else{
+//     console.log("consonant")
+// }
+// for (i=1;i<=1000;i++){
+//     console.log("helllo")
+// }
+// var  a=10
+// var sum=0
+// for (i=10;i>=1;i--){
+//     sum=a*i
+//     console.log(sum)
+// }
+// a=1
+// for(i=1;i<=7;i++)
+// {
+//     a=a*i
+// }
+// console.log(a)
+// a=10
+// sum=0
+// for(i=1;i<=10;i++){
+//     sum=sum+i
+//     if(i==5){
+//         break;
+//     }
+// }
+// console.log(sum)
+// for(guest=1;guest<=10;guest++){
+//     if(guest==3){
+//         break;
+//     }
+//     console.log("guest",guest,"got the train")
+// }
