@@ -103,7 +103,7 @@
 // else{
 //     console.log("consonant")
 // }
-// for (i=1;i<=1000;i++){
+// for (i=1;i<=10;i++){
 //     console.log("helllo")
 // }
 // var  a=10
@@ -132,4 +132,10 @@
 //         break;
 //     }
 //     console.log("guest",guest,"got the train")
+// }
+// for(i=0;i<=10;i++){
+//     if(i==4){
+//         continue;
+//     }
+// console.log(i)
 // }
