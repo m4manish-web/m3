@@ -6,14 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h2 id="head">Suggestion Form</h2>
-    <label id="min">Enter your name:</label>
-    <input type="text"><br>
-    <label id="mi">Contact Details :</label>
-    <input type="text"><br>
-    <label id="m">Service Opted :</label>
-    <input type="text"><br> 
-    <input type="submit">  
+    <div id="no">
+       <h2 id="head">Suggestion Form</h2>
+       <label for="Enter your name" id="min">Enter your name:</label>
+       <input type="text"><br>
+       <label id="mi">Contact Details :</label>
+       <input type="text"><br>
+       <label id="m">Service Opted :</label>
+       <input type="text"><br> 
+       <input id="o" type="submit">  
+    </div>
 </body>
 </html>
 <script>
@@ -27,6 +29,20 @@
     console.log(co)
     co.style.backgroundColor='green'
     co.innerText="Services opted :" 
-    count.innerText="Lable"  
+    count.innerText="Lable" 
+    count.style.margin='5px' 
+    b=document.getElementById('o')
+    console.log(b)
+    b.style.margin='2px solid orange'
+    heading_Change.style.padding='10px'
+    count.style.padding='5px'
+    co.style.padding='2px'
+    b.style.backgroundColor='yellow'
+    b.style.padding='2px'
+    var no=document.getElementById('no')
+    console.log(no)
+    no.style.backgroundColor='aqua'
+   <!-- b.style.margin-left='10px' -->
+
 
 </script>
