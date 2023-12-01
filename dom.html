@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        <form id="b" >
+            <h1 id="c">Registration Form</h1>
+            <label>Name</label>
+            <input type="text" value="Enter Your Name">
+            <label for="Branch">Branch</label>
+            <select name="select" id="">
+                <option >select Any one</option>
+                <option >it</option>
+                <option >me</option>
+                <option >cs</option>
+            </select>
+            <label >Roll No.</label>
+            <input type="text" value="Enter your roll no.">
+            <label >Er. No.</label>
+            <input type="text" value="Enter your Enrollment No.">
+            <label >Student Id</label>
+            <input type="text" value="Enter Your Unique Id">
+            <label >Department</label>
+            <input type="text" value="Enter Department">
+            <input id="d" type="Submit" >
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    var a=document.getElementById('a')
+    console.log(a)
+    a.style.backgroundColor='red'
+    a.style.margin='2px solid black'
+    a.style.padding='5px'
+    var b=document.getElementById('b')
+    console.log(b)
+    b.style.display='flex'
+    b.style.flexDirection='column'
+    var c=document.getElementById('c')
+    console.log(c)
+    c.style.backgroundColor='black'
+    c.style.color='yellow'
+    c.style.padding='5px'
+    let d=document.getElementById('d')
+    console.log(d)
+    d.style.color='orange'
+    d.style.backgroundColor='black'
+</script>
