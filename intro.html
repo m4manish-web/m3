@@ -6,6 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>m4manish</h1>
+    <h2 id="head">Suggestion Form</h2>
+    <label id="min">Enter your name:</label>
+    <input type="text"><br>
+    <label id="mi">Contact Details :</label>
+    <input type="text"><br>
+    <label id="m">Service Opted :</label>
+    <input type="text"><br> 
+    <input type="submit">  
 </body>
 </html>
+<script>
+    heading_Change = document.getElementById('head')
+    console.log(heading_Change)
+    heading_Change.style.backgroundColor = 'yellow'
+    count=document.getElementById('min')
+    console.log(count)
+    count.style.backgroundColor='blue'
+    co=document.getElementById('mi')
+    console.log(co)
+    co.style.backgroundColor='green'
+    co.innerText="Services opted :" 
+    count.innerText="Lable"  
+
+</script>
