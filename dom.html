@@ -9,23 +9,23 @@
     <div id="a">
         <form id="b" >
             <h1 id="c">Registration Form</h1>
-            <label>Name</label>
-            <input type="text" value="Enter Your Name">
+            <label >Name</label>
+            <input type="text" placeholder="Full Name">
             <label for="Branch">Branch</label>
             <select name="select" id="">
-                <option >select Any one</option>
-                <option >it</option>
-                <option >me</option>
-                <option >cs</option>
+                <option >select Any one from below</option>
+                <option >I.T</option>
+                <option >M.E</option>
+                <option >C.S.</option>
             </select>
-            <label >Roll No.</label>
-            <input type="text" value="Enter your roll no.">
-            <label >Er. No.</label>
-            <input type="text" value="Enter your Enrollment No.">
-            <label >Student Id</label>
-            <input type="text" value="Enter Your Unique Id">
-            <label >Department</label>
-            <input type="text" value="Enter Department">
+            <label for="Roll No" >Roll No.</label>
+            <input type="text" placeholder="Enter your roll no.">
+            <label for="Er" >Er. No.</label>
+            <input type="text" placeholder="Enter your Enrollment No.">
+            <label for="Student" >Student Id</label>
+            <input type="text" placeholder="Enter Youe Id">
+            <label for="Department">Department</label>
+            <input type="text" placeholder="Enter Department">
             <input id="d" type="Submit" >
         </form>
     </div>
@@ -34,9 +34,10 @@
 <script>
     var a=document.getElementById('a')
     console.log(a)
-    a.style.backgroundColor='red'
+    a.style.backgroundColor='pink'
     a.style.margin='2px solid black'
     a.style.padding='5px'
+    a.style.height='730px'
     var b=document.getElementById('b')
     console.log(b)
     b.style.display='flex'
