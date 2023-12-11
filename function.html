@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            margin: 100px;
+        }
+        body{
+            background-color: blue;
+        }
+        .child1{
+            height: 300px;
+            width: 350px;
+        }
+        .child2{
+            padding:8px ;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img class="child1" src="https://th.bing.com/th?id=OIF.StwQubf%2b2FFzCLh1b9fpPA&rs=1&pid=ImgDetMain" alt="Animal Movie"><br>
+        <button onclick="like()" >like</button>
+        <span id="child2" >0</span>
+        <button onclick="dislike()" >Dislike</button>
+        <span id="child3">0</span>
+    </div>
+    <script>
+        var x=0
+        function like()
+        {
+            x++;
+            var l=document.getElementById('child2')
+            l.innerText=x
+            
+        }
+        y=0
+        function dislike(){
+            y++
+            var m=document.getElementById('child3')
+            m.innerText=y
+        }
+    </script>
+</body>
+</html>
