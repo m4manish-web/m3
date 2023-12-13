@@ -24,9 +24,9 @@
 <body>
     <div class="head">
         <img class="child1" src="https://th.bing.com/th?id=OIF.StwQubf%2b2FFzCLh1b9fpPA&rs=1&pid=ImgDetMain" alt="Animal Movie"><br>
-        <button onclick="like()" >like</button>
+        <button id="but" onclick="like()" >like</button>
         <span id="child2" >0</span>
-        <button onclick="dislike()" >Dislike</button>
+        <button id="bt" onclick="dislike()" >Dislike</button>
         <span id="child3">0</span>
     </div>
     <script>
@@ -36,6 +36,11 @@
             x++;
             var l=document.getElementById('child2')
             l.innerText=x
+            if(l){
+                l++
+                var a=document.getElementById('but')
+                a.style.backgroundColor='red'
+            }
             
         }
         y=0
@@ -43,6 +48,11 @@
             y++
             var m=document.getElementById('child3')
             m.innerText=y
+            if(m){
+                m++
+                var b=document.getElementById('bt')
+                b.style.backgroundColor='green'
+            }
         }
     </script>
 </body>
